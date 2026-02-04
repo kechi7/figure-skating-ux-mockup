@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Upload Your Art - Skate Elements</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <h1>Upload Your Skating Art</h1>
+  <p>Share your creativity! Select tags to show your skill level, style, and element.</p>
+</header>
+
+<section class="upload-mockup">
+  <div class="upload-preview">
+    <div class="image-placeholder">
+      <p>Image Preview</p>
+      <img src="https://via.placeholder.com/400x300.png?text=Your+Artwork+Here" alt="Your upload preview">
+    </div>
+  </div>
+
+  <form class="upload-form">
+    <label for="title">Title of your post:</label>
+    <input type="text" id="title" placeholder="E.g., Spiral Sequence">
+
+    <label for="skill">Skill Level:</label>
+    <select id="skill">
+      <option>Beginner</option>
+      <option>Intermediate</option>
+      <option>Expert</option>
+    </select>
+
+    <label for="style">Style:</label>
+    <select id="style">
+      <option>Theater</option>
+      <option>Competition</option>
+      <option>Freestyle</option>
+      <option>Artistic Expression</option>
+    </select>
+
+    <label for="element">Element:</label>
+    <select id="element">
+      <option>Jumps</option>
+      <option>Spins</option>
+      <option>Footwork</option>
+      <option>Transitions</option>
+    </select>
+
+    <label for="description">Description:</label>
+    <textarea id="description" placeholder="Describe your move or performance..."></textarea>
+
+    <button type="submit" disabled>Post (Mockup)</button>
+  </form>
+</section>
+
+</body>
+</html>

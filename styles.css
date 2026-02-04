@@ -1,0 +1,131 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fefefe;
+  color: #111;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #e0f2fe;
+}
+
+h1 {
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  margin-top: 2rem;
+}
+
+.gallery-section, .upload-mockup {
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem 1rem;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.gallery-item {
+  position: relative;
+  width: 300px;
+}
+
+.gallery-item img {
+  width: 100%;
+  border-radius: 12px;
+  display: block;
+}
+
+.tags {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.tag {
+  padding: 0.2rem 0.6rem;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  color: white;
+  background-color: #2563eb;
+}
+
+.tag.beginner { background-color: #10b981; }
+.tag.intermediate { background-color: #f59e0b; }
+.tag.expert { background-color: #ef4444; }
+
+.tag.jumps { background-color: #8b5cf6; }
+.tag.spins { background-color: #3b82f6; }
+.tag.footwork { background-color: #f97316; }
+.tag.transitions { background-color: #14b8a6; }
+.tag.theater { background-color: #ec4899; }
+.tag.competition { background-color: #facc15; }
+
+.upload-container {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.upload-button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #2563eb;
+  color: white;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.upload-button:hover {
+  background-color: #1e40af;
+}
+
+.upload-mockup form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 500px;
+  margin: auto;
+}
+
+.upload-mockup input, 
+.upload-mockup select, 
+.upload-mockup textarea {
+  padding: 0.6rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.upload-mockup button {
+  padding: 0.75rem;
+  border-radius: 999px;
+  border: none;
+  background-color: #10b981;
+  color: white;
+  font-weight: bold;
+  cursor: not-allowed; /* mockup, button is disabled */
+}
+
+.image-placeholder {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.image-placeholder img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+  display: block;
+  margin: auto;
+}
