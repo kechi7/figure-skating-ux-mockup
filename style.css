@@ -153,6 +153,27 @@ body {
 .gallery img:hover {
   transform: scale(1.05);
 }
+.upload-container {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.upload-button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #2563eb;
+  color: white;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.3s ease;
+  text-decoration: none;
+}
+
+.upload-button:hover {
+  background-color: #1e40af;
+}
+
 
 /* Community Section */
 .community {
